@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Cabras_LabActivity1.MainPage"
+             BackgroundColor="RoyalBlue">
+
+    <VerticalStackLayout Spacing="25" Padding="30,60,30,30" HorizontalOptions="Center">
+
+       <!-- Profile Picture -->
+        <Image Source="zoro.jpg" 
+               WidthRequest="150" HeightRequest="150" 
+               HorizontalOptions="Center" 
+               Aspect="AspectFill"/>
+
+        <!-- Line Divider -->
+        <BoxView Color="Black"
+         HeightRequest="3"
+         HorizontalOptions="Fill"
+         VerticalOptions="Center"/>
+
+
+        <!-- Full Name Label -->
+        <HorizontalStackLayout>
+            <Label Text="ANGELO A. CABRAS"
+                   FontSize="38"
+                   FontFamily="Christmas December"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+
+        <!-- Birthdate label with icon -->
+        <HorizontalStackLayout>
+            <Image Source="date.png" 
+                   WidthRequest="20" HeightRequest="20" 
+                   VerticalOptions="Center"
+                   Margin="0,0,10,0"/>
+            <Label Text="October 30, 2003"
+                   FontSize="21"
+                   FontFamily="Christmas December"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+
+        <!-- Location label with icon -->
+        <HorizontalStackLayout>
+            <Image Source="address.png" 
+                   WidthRequest="20" HeightRequest="20" 
+                   VerticalOptions="Center"
+                   Margin="0,0,10,0"/>
+            <Label Text="Cebu City"
+                   FontSize="21"
+                   FontFamily="Christmas December"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+
+       <!-- User role label with icon -->
+        <HorizontalStackLayout>
+            <Image Source="it.png" 
+                   WidthRequest="20" HeightRequest="20" 
+                   VerticalOptions="Center"
+                   Margin="0,0,10,0"/>
+                   
+            <Label Text="BSIT Third Year"
+                   FontSize="21"
+                   FontFamily="Christmas December"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
